@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>jim | 个人主页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 可选的 Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    <!-- FontAwesome 6 免费图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"><a href="#">jim</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#guestbook">留言板</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero 区域 -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <img src="assets/avatar.png" alt="头像" class="avatar">
+                <h1>你好，我是 <span class="highlight">jim</span></h1>
+                <p class="tagline">开发者 | 开源爱好者</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于区域 -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>关于我</h2>
+                <p>热爱创造优雅的代码和设计</p>
+                <div class="skills">
+                    <span>JavaScript/TypeScript</span>
+                    <span>React/Vue</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 留言板区域（评论功能） -->
+        <section id="guestbook" class="guestbook">
+            <div class="container">
+                <h2>📝 留言板</h2>
+                <p>欢迎留下你的想法、建议或只是打个招呼！</p>
+                <!-- Giscus 评论容器 -->
+                <div class="giscus-container">
+<script src="https://giscus.app/client.js"
+        data-repo="jim021w/jim021w.github.io"
+        data-repo-id="R_kgDOSe5mnQ"
+        data-category-id="DIC_kwDOSe5mnc4C9KF_"
+        data-mapping="specific"
+        data-term="留言板"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 jim</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
